@@ -4,7 +4,7 @@ description: this is a repository to hold book store configuration
 eureka:
   client:
     serviceUrl:
-      defaultZone: "http://primaryregistry:9011/eureka,http://secondaryregistry:9012/eureka,http://tertiaryregistry:9013/eureka"
+      defaultZone: "http://registryserver:9011/eureka"
       
 
 bookstore:
