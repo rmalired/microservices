@@ -3,7 +3,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/rmalired/microservices/config
+          uri: https://github.com/rmalired/microservices
+          search-paths:
+          - config
 server:
   port: 9001
 
