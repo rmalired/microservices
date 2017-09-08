@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/rmalired/bookstore-config
+          uri: https://github.com/rmalired/microservices/config
 server:
   port: 9001
 
