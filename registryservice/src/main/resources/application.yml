@@ -1,3 +1,7 @@
 ---
 server:
   port: 9011
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
