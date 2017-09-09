@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: registryserver
+  cloud:
+    config:
+      uri: http://configserver:9001    
