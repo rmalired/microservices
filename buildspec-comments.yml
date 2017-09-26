@@ -15,7 +15,7 @@ phases:
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION)
   build:
     commands:
-      - cd pricing
+      - cd Comments
       - echo pwd
       - echo ls
       - echo Build started on `date`
