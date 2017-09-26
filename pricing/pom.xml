@@ -25,7 +25,8 @@
 		<spring-cloud.version>Dalston.SR3</spring-cloud.version>
 		<docker.plugin.version>0.4.13</docker.plugin.version>
 		<!--  <docker.image.prefix>rmalired</docker.image.prefix> -->
-		<docker.image.prefix>test</docker.image.prefix>
+		<!-- AWS ECR name-->
+		<docker.image.prefix>bookstore</docker.image.prefix>
 	</properties>
 
 	<dependencies>
