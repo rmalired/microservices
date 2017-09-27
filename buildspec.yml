@@ -22,7 +22,7 @@ phases:
       - echo Building the Docker image...
       - mvn -e package docker:build
       - docker images
-      - docker tag $IMAGE_REPO_NAME/$PROJECT_ARTIFACT:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$PROJECT_ARTIFACT/$IMAGE_TAG      
+      - docker tag $IMAGE_REPO_NAME/$PROJECT_ARTIFACT:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$PROJECT_ARTIFACT$IMAGE_TAG      
   post_build:
     commands:
       - echo Build completed on `date`
